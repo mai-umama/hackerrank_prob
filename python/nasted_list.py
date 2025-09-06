@@ -12,5 +12,5 @@ second_lowest = grades[1]
 #alphabetically sajay
 names = sorted([name for name , grade in students if grade == second_lowest ])#it findout the second lowest student name
 names.sort() #accending the second lowest names
-for n in names:
+for n in names: #run the loop in names list 
     print(names)
