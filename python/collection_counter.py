@@ -14,3 +14,6 @@ for i in range(customers):
         total_price += price # tatal_price = tatal_price + price
 
 print(total_price)
+
+#it checks if the size is available in sizes . if yes it removes the size num. Ex: size = 6 ,which is available 
+# in the sizes list . so it removes the size from the sizes list.
