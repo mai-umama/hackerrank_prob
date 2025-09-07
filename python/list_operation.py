@@ -1,3 +1,4 @@
+#must practice again 
 n = int(input())
 arr=[] #empty list
 
