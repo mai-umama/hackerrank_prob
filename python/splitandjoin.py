@@ -7,3 +7,7 @@ if __name__ == '__main__':
                             #several strings not a single string
     result = split_and_join(line) # function call
     print(result)
+
+    #line =(input().split())
+    #result= "-".join(line)
+    #print(result)
