@@ -3,7 +3,7 @@ c = 'H'
 
 #Top Cone
 for i in range(thickness):
-    print((c*i).rjust(thickness-1)+c+(c*i).ljust(thickness-1))
+    print((c*i).rjust(thickness-1)+c+(c*i).ljust(thickness-1))#rjust and ljust use kore middle a perfectly dewa hoyeche
 
 #Top Pillars
 for i in range(thickness+1):
@@ -20,3 +20,5 @@ for i in range(thickness+1):
 #Bottom Cone
 for i in range(thickness):
     print(((c*(thickness-i-1)).rjust(thickness)+c+(c*(thickness-i-1)).ljust(thickness)).rjust(thickness*6))
+
+#The thickness must be an odd number.
