@@ -7,4 +7,4 @@ k = int(k)
 for p in sorted(combinations_with_replacement(s,k)):
     print("".join(p))
 
-#combination with replacement diye we got more than 4 result output. AA CC HH KK . jwhich doesn't exist on combination module
+#combination with replacement diye we got more than 4 result output. AA CC HH KK . jwhich doesn't exist on combination module 
